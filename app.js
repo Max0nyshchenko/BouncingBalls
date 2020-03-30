@@ -44,13 +44,8 @@ function animBG(){
     let b  = Math.round(Math.random() * 250);
     let n = 2;
     bg.style.backgroundColor = `rgb(${r}, ${g}, ${b})`;
-    function bgcolor(){
-        if(r<250) {
-            r++;
-        } 
-    }
-    requestAnimationFrame(bgcolor);
 }
+
 
 animBG();
 
